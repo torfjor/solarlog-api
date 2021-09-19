@@ -1,0 +1,80 @@
+{
+  "header": {
+    "epoch": "2021-08-26",
+    "timezone": "Europe/Belgrade",
+    "utc_offset": "+1:00",
+    "epoch_devices": {
+      "2021-08-26": {
+        "1": {
+          "serialnumber": "1",
+          "classes": ["production"],
+          "type": "Inverter",
+          "model": "SG110CX",
+          "name": "INV 1",
+          "id": "31588",
+          "uid": "9077eb7fcf8aee4caaf553d0827549ae",
+          "channels": {
+            "7": {
+              "channel": 7,
+              "position": 0,
+              "basename": "ETOTAL",
+              "basechannel": 7,
+              "subchannel": 0,
+              "unit": "Wh",
+              "description": "Yield"
+            }
+          }
+        },
+        "2": {
+          "serialnumber": "2",
+          "classes": ["production"],
+          "type": "Inverter",
+          "model": "SG110CX",
+          "name": "INV 1",
+          "id": "31589",
+          "uid": "3d48d6947686af31f2ad8abee659138d",
+          "channels": {
+            "7": {
+              "channel": 7,
+              "position": 0,
+              "basename": "ETOTAL",
+              "basechannel": 7,
+              "subchannel": 0,
+              "unit": "Wh",
+              "description": "Yield"
+            }
+          }
+        },
+        "5": {
+          "serialnumber": "0",
+          "classes": ["hidden"],
+          "type": "SolarLogSmartEnergy",
+          "model": "",
+          "name": "Solar-Log-SE",
+          "id": "31592",
+          "uid": "4511ea8442dc338cd47edd84a74e50fb",
+          "channels": {
+            "7": {
+              "channel": 7,
+              "position": 0,
+              "basename": "ETOTAL",
+              "basechannel": 7,
+              "subchannel": 0,
+              "unit": "Wh",
+              "description": "Yield"
+            }
+          }
+        }
+      }
+    },
+    "date_epoch": { "2021-09-01": "2021-08-26" }
+  },
+  "body": {
+    "2021-09-01": {
+      "1": { "7": "431000" },
+      "2": { "7": "463900" },
+      "5": { "7": "0" }
+    }
+  },
+  "cputime": 0.04053
+}
